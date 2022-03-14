@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 2px solid #0060c0;
+  flex-wrap: wrap;
+  cursor: text;
+  border-radius: 5px;
+  min-height: 2.5em;
+  position: relative;
+}
+
+.tags-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #ccc;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  height: 32px;
+}
+
+.tag-content {
+  padding: 0px 10px;
+}
+
+.tag-close {
+  margin-right: 10px;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+
+.tags-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0px;
+  padding-left: 10px;
+  font-size: 18px;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentcolor;
+  padding: 4px 0px 5px;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 30px;
+}
+
+.delete-all {
+  position: absolute;
+  right: 0;
+}
